@@ -1,0 +1,27 @@
+.navbar__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__headerLeft {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar_avatar {
+  margin-left: 10px;
+}
+
+.navbar__headerImage {
+  height: 50px;
+}

@@ -1,0 +1,42 @@
+.main__editpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editpost {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
+.form__input {
+  margin-top: 10px !important;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 400px;
+  height: 350px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.button__add {
+  margin-top: 10px !important;
+}

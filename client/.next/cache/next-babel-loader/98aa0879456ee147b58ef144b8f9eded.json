@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function adding() {}","map":{"version":3,"sources":["/Users/jackzro/Documents/Honda/instagramNext/client/store/actions/postAction.js"],"names":["adding"],"mappings":"AAAA,OAAO,SAASA,MAAT,GAAkB,CAAE","sourcesContent":["export function adding() {}\n"]},"metadata":{},"sourceType":"module"}

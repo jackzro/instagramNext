@@ -1,0 +1,37 @@
+{
+  "name": "instagramNext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackzro/instagramNext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackzro/instagramNext/issues"
+  },
+  "homepage": "https://github.com/jackzro/instagramNext#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@zeit/next-css": "^1.0.1",
+    "next": "^9.5.1",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-instagram-embed": "^1.5.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
